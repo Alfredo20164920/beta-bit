@@ -92,3 +92,22 @@ header img {
     line-height: 1.8rem;
     color: var(--Soft-orange);
 }
+
+.header--title-container .header--button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--Off-white);
+    /* Sombra */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--font-size-sans-small);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--Warm-black);
+}

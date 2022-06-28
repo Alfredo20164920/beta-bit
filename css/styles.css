@@ -15,12 +15,12 @@
     --font-sans: 'DM Sans', sans-serif;
     --font-inter: font-family: 'Inter', sans-serif;
 
-    --font-size-sans-small: 14px;
-    --font-size-sans-normal: 18px;
-    --font-size-sans-big: 24px;
+    --font-size-sans-small: 1.4rem;
+    --font-size-sans-normal: 1.8rem;
+    --font-size-sans-big: 2.4rem;
 
-    --font-size-inter-small: 12px;
-    --font-size-inter-normal: 16px;
+    --font-size-inter-small: 1.2rem;
+    --font-size-inter-normal: 1.6rem;
 
     /* Colores */
     --Gray: #BABABA;
@@ -45,4 +45,78 @@
 html {
     font-size: 62.5%;
     font-family: var(--font-sans);
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+
+    background: linear-gradient( var(--linear-bg) );
+
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container {
+    width: 90%;
+    height: 218px;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title-container h1 {
+    font-weight: bold;
+    font-size: var(--font-size-sans-big);
+    line-height: 2.6rem;
+    color: var(--Just-white);
+}
+
+.header--title-container p {
+    margin-top: 25px;
+    font-size: var(--font-size-sans-small);
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Soft-orange);
+}
+
+.header--title-container .header--button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--Off-white);
+    /* Sombra */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--font-size-sans-small);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--Warm-black);
+}
+
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/down-arrow.svg');
+    
 }

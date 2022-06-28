@@ -1,0 +1,48 @@
+/* 
+    Convención para agregar estilos
+
+    1. Posicionamiento
+    2. Modelado de caja
+    3. Tipografía
+    4. Estilos visuales
+    5. Otros
+
+*/
+
+:root {
+
+    /* Tipografía */
+    --font-sans: 'DM Sans', sans-serif;
+    --font-inter: font-family: 'Inter', sans-serif;
+
+    --font-size-sans-small: 14px;
+    --font-size-sans-normal: 18px;
+    --font-size-sans-big: 24px;
+
+    --font-size-inter-small: 12px;
+    --font-size-inter-normal: 16px;
+
+    /* Colores */
+    --Gray: #BABABA;
+    --Soft-blue: #E7F5FF;
+    --Off-white: #FAF8F7;
+    --Just-white: #FFFFFF;
+    --Warm-black: #201E1C;
+    --Soft-orange: #FFE9D5;
+    --Secondary-blue: #1A9AF7;
+    --Bitcoin-orange: #F7931A;
+    --Warm-black-plus-1: #282623;
+    --linear-bg: 207.8deg, #201E1C 16.69%, #F7931A 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-sans);
+}

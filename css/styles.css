@@ -143,3 +143,10 @@ main {
     margin: 0 auto;
 }
 
+.main-exchange-container .main-exchange-container__BGimg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: url('../assets/img/Bitcoin.svg') center/cover no-repeat;
+}

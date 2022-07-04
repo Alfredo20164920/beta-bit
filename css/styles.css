@@ -177,12 +177,20 @@ main {
     font-family: var(--font-inter);
 }
 
-.currency-table .currency-table--title {
+.currency-table .currency-table--title, 
+.currency-table .commision-table--title {
     margin-bottom: 15px;
     font-weight: bold;
     font-size: var(--font-size-inter-normal);
     line-height: 2.3rem;
+}
+
+.currency-table .currency-table--title {
     color: var(--Bitcoin-orange);
+}
+
+.currency-table .commision-table--title {
+    color: var(--Secondary-blue);
 }
 
 .currency-table--container {
@@ -246,14 +254,22 @@ main {
     background: url('../assets/icons/trending-up.svg') center/cover no-repeat;
 }
 
-.currency-table--date {
+.currency-table--date, 
+.commision-table--date{
     width: 190px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--Soft-orange);
     border-radius: 8px;
+}
+
+.currency-table--date {
+    background-color: var(--Soft-orange);
+}
+
+.commision-table--date {
+    background-color: var(--Soft-blue);
 }
 
 .currency-table--date p {

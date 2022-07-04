@@ -463,5 +463,28 @@ main {
 .card-datails--Text {
     font-size: 1.2rem;
     color: #757575;
+
+}
+
+.card-datails button {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--Off-white);
+    border: 1px solid var(--Bitcoin-orange);
+    border-radius: 4px;   
     
+    font-weight: bold;
+    font-size: var(--font-size-sans-small);
+    line-height: 1.8rem;
+    color: var(--Warm-black-plus-1);
+    font-family: var(--font-sans);
+}
+
+.card-datails button span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../assets/icons/orange-right-arrow.svg') center/cover no-repeat;
+    vertical-align: text-bottom;
 }

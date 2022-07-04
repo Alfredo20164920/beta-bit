@@ -377,3 +377,34 @@ main {
     font-weight: bold;
     color: var(--Just-white);
 }
+
+.plans-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans-text {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto 50px;
+}
+
+.plans-text h2 {
+    padding-top: 50px;
+    font-size: var(--font-size-sans-big);
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--Warm-black-plus-1);
+}
+
+.plans-text p {
+    padding-top: 30px;
+    font-size: var(--font-size-sans-small);
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}

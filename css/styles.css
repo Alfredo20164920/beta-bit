@@ -358,3 +358,146 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+
+.bitcoin-img-container {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    background: url('../assets/img/bitcoinbaby2x.jpg') center/cover no-repeat;
+} 
+
+.bitcoin-img-container h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--font-size-sans-big);
+    line-height: 2.3rem;
+    font-weight: bold;
+    color: var(--Just-white);
+}
+
+.plans-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans-text {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto 50px;
+}
+
+.plans-text h2 {
+    padding-top: 50px;
+    font-size: var(--font-size-sans-big);
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--Warm-black-plus-1);
+}
+
+.plans-text p {
+    padding-top: 30px;
+    font-size: var(--font-size-sans-small);
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.card-container--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.card-container--slider::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 30px 0;
+    padding: 0 15px;
+    background-color: var(--Just-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.card .card-top {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--Bitcoin-orange);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    color: var(--Just-white);
+    font-size: var(--font-size-inter-small);
+    font-family: var(--font-inter);
+}
+
+.card-datails h3 {
+    padding-top: 30px;
+    font-size: var(--font-size-sans-normal);
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Warm-black-plus-1);
+}
+
+.card-datails .card-datails--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--Warm-black-plus-1);
+}
+
+.card-datails .card-datails--price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+
+.card-datails--Text {
+    font-size: 1.2rem;
+    color: #757575;
+
+}
+
+.card-datails button {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--Off-white);
+    border: 1px solid var(--Bitcoin-orange);
+    border-radius: 4px;   
+    
+    font-weight: bold;
+    font-size: var(--font-size-sans-small);
+    line-height: 1.8rem;
+    color: var(--Warm-black-plus-1);
+    font-family: var(--font-sans);
+}
+
+.card-datails button span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../assets/icons/orange-right-arrow.svg') center/cover no-repeat;
+    vertical-align: text-bottom;
+}

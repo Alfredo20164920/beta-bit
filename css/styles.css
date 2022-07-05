@@ -272,7 +272,8 @@ main {
     background-color: var(--Soft-blue);
 }
 
-.currency-table--date p {
+.currency-table--date p,
+.commision-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--Warm-black);
@@ -325,6 +326,7 @@ main {
 .product-detail--card {
     width: 90%;
     min-width: 288px;
+    max-width: 400px;
     height: 150px;
     margin: 0 auto;
     margin: 15px auto;
